@@ -2,10 +2,10 @@
 // console.log(validator.isEmail('m.hazrati8068.mh@gmaiil.com'));
 
 import React from "react";
-import ReactDOM from 'react-dom';
-import IndecisionApp from './components/indicisionApp';  
-import 'normalize.css/normalize.css';
-import './styles/styles.css';
+import ReactDOM from "react-dom";
+import IndecisionApp from "./components/indicisionApp";
+import "normalize.css/normalize.css";
+import "./styles/styles.css";
 
 // class OldSyntax {
 //     constructor(){
@@ -33,6 +33,4 @@ import './styles/styles.css';
 // const newGetGreeting = newSyntax.getGreeting();
 // console.log(newGetGreeting);
 
-    
-ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
-  
+ReactDOM.render(<IndecisionApp />, document.getElementById("app"));
